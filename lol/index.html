@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS\style.css">
+    <title>Document</title>
+</head>
+<body id="body" style = "text-align:center;">
+    
+    <button onmousedown="fard.play()" onclick="lol()">lol</button>
+
+    <script>
+    var fard = new Audio();
+    fard.src = "fard1.mp3";
+        
+        function lol(){
+            var img  = document.createElement('img')
+            img.src = 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b954fdae-d3c2-4116-b9ae-28d891c6f488/dahy50f-832c5a0b-6cfc-4f76-b8d6-f2e5a95382a9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I5NTRmZGFlLWQzYzItNDExNi1iOWFlLTI4ZDg5MWM2ZjQ4OFwvZGFoeTUwZi04MzJjNWEwYi02Y2ZjLTRmNzYtYjhkNi1mMmU1YTk1MzgyYTkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.habSvddiQefNta4BfPiAbirgdoW96pHOMZTYPVxvAVo';
+            img.style.marginTop = "30px"
+            img.style.border = "15px solid #e4d149"
+            img.style.width = "50%"
+            document.getElementById('body').appendChild(img);
+}
+    </script>
+</body>
+</html>
